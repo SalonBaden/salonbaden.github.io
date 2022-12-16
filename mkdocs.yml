@@ -1,0 +1,158 @@
+%YAML 1.2
+---
+site_name: Salonorchester Baden-Baden
+site_description: Das Salonorchester Baden-Baden stellt sich vor.
+site_author: Salonorchester Baden-Baden
+site_url: 'https://salonbaden.de'
+
+# repo_name: salonbaden/salonbaden.github.io
+# repo_url: https://github.com/salonbaden/salonbaden.github.io
+# edit_uri: blob/main/docs/src/markdown
+
+copyright: |
+  Copyright &copy; 2022 <a href="//salonbaden.de/imprint/">Salonorchester Baden-Baden</a>
+
+docs_dir: docs/src/markdown
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: de
+  font: false
+  favicon: assets/images/favicon.png
+  icon:
+    edit: material/file-document-edit-outline
+    logo: material/music-clef-treble
+    # repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  palette:
+    # light
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # dark
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.tabs.link
+    # - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.prune                                                        # not in combination with 'navigation.expand'
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate                                                           # not in combination with 'navigation.indexes'
+
+nav:
+  - Startseite: index.md
+  - Mitglieder:
+      - members/index.md
+      - 'Prof. Anton Hollich': members/anton-hollich.md
+      - 'Andreas Nebl': members/andreas-nebl.md
+      - 'Harald Paul': members/harald-paul.md
+      - 'Julia Richtberg': members/julia-richtberg.md
+      - 'Ewald Adam': members/ewald-adam.md
+      - 'Alexander Somov': members/alexander-somov.md
+      - 'Jakob Krupp': members/jakob-krupp.md
+      - 'Frank Dupree': members/frank-dupree.md
+      - 'Willi Huber': members/willi-huber.md
+  - Orchester:
+    - Termine: tour.md
+    - Repertoire: repertoire.md
+    - Medien: media.md
+    - Pressestimmen: reviews.md
+  - Impressum: imprint.md
+
+extra:
+  generator: false
+  social:
+    - name: Apple Music
+      icon: simple/applemusic
+      link: '//music.apple.com/us/artist/salonorchester-baden-baden/1449482405'
+    - name: Deezer
+      icon: simple/deezer
+      link: '//www.deezer.com/de/artist/57530502'
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - markdown.extensions.abbr
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  # - markdown.extensions.def_list
+  # - markdown.extensions.footnotes
+  - markdown.extensions.md_in_html
+  - markdown.extensions.meta
+  # - markdown.extensions.tables
+  - markdown.extensions.toc:
+      permalink: '⚓︎'
+      permalink_title: Anker-Link als Refernz zu diesem Abschnitt
+      slugify: !!python/object/apply:pymdownx.slugs.slugify { kwds: { case: lower } }
+      title: Inhaltsverzeichnis
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  # - pymdownx.keys:
+  #     separator: '\uff0b'
+  # - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      base_path: 'includes'
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: iso_date
+  - glightbox
+  - search:
+      lang: de
+  - tags

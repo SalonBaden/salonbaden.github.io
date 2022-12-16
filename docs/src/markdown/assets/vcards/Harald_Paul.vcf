@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Paul;Harald;;;
+FN:Harald Paul
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+URL;TYPE=work,pref:https://salonbaden.de/members/harald-paul/
+SOURCE:https://da-michele.com/assets/vcards/Harald_Paul.vcf
+ORG-DIRECTORY:https://salonbaden.de/members/
+TZ:+0100
+REV:2023-01-02T10:00:00+02:00
+END:VCARD

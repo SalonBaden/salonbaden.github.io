@@ -1,0 +1,268 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {% set title = config.site_name %}
+  {% if page and page.meta and page.meta.title %}
+    {% set title = title ~ " - " ~ page.meta.title %}
+  {% elif page and page.title and not page.is_homepage %}
+    {% set title = title ~ " - " ~ page.title %}
+  {% endif %}
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ config.site_description }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+
+  <meta property="og:image" content="//salonbaden.de/assets/images/social/social_banner_1x1.png">
+  <meta property="og:image:secure_url" content="//salonbaden.de/assets/images/social/social_banner_1x1.png">
+  <meta property="og:image:alt" content="{{ config.site_name }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="416">
+  <meta property="og:image:height" content="416">
+
+  <meta property="og:image" content="//salonbaden.de/assets/images/social/social_banner_4x3.png">
+  <meta property="og:image:secure_url" content="//salonbaden.de/assets/images/social/social_banner_4x3.png">
+  <meta property="og:image:alt" content="{{ config.site_name }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="555">
+  <meta property="og:image:height" content="416">
+
+  <meta property="og:image" content="//salonbaden.de/assets/images/social/social_banner_16x9.png">
+  <meta property="og:image:secure_url" content="//salonbaden.de/assets/images/social/social_banner_16x9.png">
+  <meta property="og:image:alt" content="{{ config.site_name }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="740">
+  <meta property="og:image:height" content="416">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ config.site_name }}">
+  <meta name="twitter:description" content="{{ config.site_description }}">
+  <meta name="twitter:image:src" content="//salonbaden.de/assets/images/social/social_banner_16x9.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "Salonorchester Baden-Baden",
+    "email": "mailto:info@salonbaden.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Keltenweg 8",
+      "addressLocality": "Baden-Baden",
+      "addressRegion": "Baden-Württemberg",
+      "postalCode": "76532",
+      "addressCountry": "DE"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "name": "Anton Hollich",
+      "telephone": "+49722166172",
+      "email": "mailto:info@salonbaden.de"
+    },
+    "member": [
+      {
+        "@type": "Person",
+        "name": "Anton Hollich",
+        "url": "https://salonbaden.de/members/anton-hollich/",
+        "familyName": "Hollich",
+        "givenName": "Anton",
+        "honorificPrefix": "Prof.",
+        "additionalName": "Toni",
+        "gender": "Male",
+        "telephone": "+49722166172",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Keltenweg 8",
+          "addressLocality": "Baden-Baden",
+          "addressRegion": "Baden-Württemberg",
+          "postalCode": "76532",
+          "addressCountry": "DE"
+        },
+        "knowsLanguage": [
+          {
+            "@type": "Language",
+            "name": "English",
+            "alternateName": "en"
+          },
+          {
+            "@type": "Language",
+            "name": "German",
+            "alternateName": "de"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Andreas Nebl",
+        "url": "https://salonbaden.de/members/andreas-nebl/",
+        "familyName": "Nebl",
+        "givenName": "Andreas",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Harald Paul",
+        "url": "https://salonbaden.de/members/harald-paul/",
+        "familyName": "Paul",
+        "givenName": "Harald",
+        "additionalName": "Harry",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Julia Richtberg",
+        "url": "https://salonbaden.de/members/julia-richtberg/",
+        "familyName": "Richtberg",
+        "givenName": "Julia",
+        "gender": "Female"
+      },
+      {
+        "@type": "Person",
+        "name": "Ewald Adam",
+        "url": "https://salonbaden.de/members/ewald-adam/",
+        "familyName": "Adam",
+        "givenName": "Ewald",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Alexander Somov",
+        "url": "https://salonbaden.de/members/alexander-somov/",
+        "familyName": "Somov",
+        "givenName": "Alexander",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Jakob Krupp",
+        "url": "https://salonbaden.de/members/jakob-krupp/",
+        "familyName": "Krupp",
+        "givenName": "Jakob",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Frank Dupree",
+        "url": "https://salonbaden.de/members/frank-dupree/",
+        "familyName": "Dupree",
+        "givenName": "Frank",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Willi Huber",
+        "url": "https://salonbaden.de/members/willi-huber/",
+        "familyName": "Huber",
+        "givenName": "Willi",
+        "gender": "Male"
+      }
+    ],
+    "alumni": [
+      {
+        "@type": "Person",
+        "name": "Alois Müller",
+        "familyName": "Müller",
+        "givenName": "Alois",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Francois Kilian",
+        "familyName": "Kilian",
+        "givenName": "Francois",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Lucy Jeal",
+        "familyName": "Jeal",
+        "givenName": "Lucy",
+        "gender": "Female"
+      },
+      {
+        "@type": "Person",
+        "name": "Wolfgang Güttler",
+        "familyName": "Güttler",
+        "givenName": "Wolfgang",
+        "gender": "Male"
+      }
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://salonbaden.de/?q={query}"
+      },
+      "query": "required"
+    },
+    "event": [
+      {
+        "@type": "Event",
+        "location": "Alte Kirche, Fautenbach",
+        "startDate": "2023-01-01T16:00:00+02:00",
+        "url": "https://salonbaden.de/tour/#2023-01-01",
+        "inLanguage": {
+          "@type": "Language",
+          "name": "German",
+          "alternateName": "de"
+        }
+      },
+      {
+        "@type": "Event",
+        "location": "Alte Kirche, Fautenbach",
+        "startDate": "2023-01-06T18:00:00+02:00",
+        "url": "https://salonbaden.de/tour/#2023-01-06",
+        "inLanguage": {
+          "@type": "Language",
+          "name": "German",
+          "alternateName": "de"
+        }
+      },
+      {
+        "@type": "Event",
+        "location": "BadnerHalle, Kapellenstr. 20, 76437 Rastatt",
+        "offers": "https://www.eventim-light.com/de/a/6363fca0b2c90924ad5deeb5/e/636403dfb2c90924ad5deef2/",
+        "startDate": "2023-01-07T19:00:00+02:00",
+        "doorTime": "2023-01-07T18:00:00+02:00",
+        "url": "https://salonbaden.de/tour/#2023-01-07",
+        "inLanguage": {
+          "@type": "Language",
+          "name": "German",
+          "alternateName": "de"
+        }
+      },
+      {
+        "@type": "Event",
+        "location": "Günter-Bimmerle-Halle, Oppenau",
+        "startDate": "2023-01-08T18:00:00+02:00",
+        "url": "https://salonbaden.de/tour/#2023-01-08",
+        "inLanguage": {
+          "@type": "Language",
+          "name": "German",
+          "alternateName": "de"
+        }
+      },
+      {
+        "@type": "Event",
+        "location": "Schlossfeldhalle, Achern",
+        "startDate": "2023-05-14T14:30:00+01:00",
+        "url": "https://salonbaden.de/tour/#2023-05-14",
+        "inLanguage": {
+          "@type": "Language",
+          "name": "German",
+          "alternateName": "de"
+        }
+      }
+    ]
+  }
+  </script>
+{% endblock %}
+
+{% block announce %}
+  <span class="material-hand-wave-outline">
+    {% include ".icons/material/hand-wave-outline.svg" %}
+  </span>
+  Willkommen auf unserer neuen Seite.
+  Wir freuen uns &uuml;ber <a href="/imprint/#kontakt">Feedback</a>.
+{% endblock %}

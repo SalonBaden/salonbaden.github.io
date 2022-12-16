@@ -1,0 +1,15 @@
+# global owners
+*                                       @SalonBaden/dev
+
+# content quality control
+/docs/src/markdown/                     @HarryViolin
+
+# technical quality control
+/.github/workflows/                     @jrappen
+/docs/overrides/                        @jrappen
+/docs/src/markdown/assets/              @jrappen
+/docs/requirements.txt                  @jrappen
+/includes/                              @jrappen
+/.gitattributes                         @jrappen
+/.gitignore                             @jrappen
+/mkdocs.yml                             @jrappen

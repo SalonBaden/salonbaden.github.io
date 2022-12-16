@@ -1,0 +1,20 @@
+*                   text        eol=lf
+
+# Folders
+
+./.github/                      export-ignore
+
+# Files
+
+./.gitattributes                export-ignore
+./.gitignore                    export-ignore
+./LICENSE           text
+./README.md                     export-ignore
+
+# Extensions
+
+*.png               binary
+*.webp              binary
+
+*.svg               text
+*.vcf               text

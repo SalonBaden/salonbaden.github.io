@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hollich;Anton;;Prof.;
+FN:Prof. Anton Hollich
+TEL;TYPE=home,voice,pref:+49722166172
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+ADR;TYPE=home,pref:;;Keltenweg 8;Baden-Baden;;76532;Deutschland
+URL;TYPE=work,pref:https://salonbaden.de/members/anton-hollich/
+SOURCE:https://da-michele.com/assets/vcards/Anton_Hollich.vcf
+ORG-DIRECTORY:https://salonbaden.de/members/
+TZ:+0100
+REV:2023-01-02T09:00:00+02:00
+END:VCARD

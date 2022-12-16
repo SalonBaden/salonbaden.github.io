@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "Salonorchester Baden-Baden",
+    "email": "mailto:info@salonbaden.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Keltenweg 8",
+      "addressLocality": "Baden-Baden",
+      "addressRegion": "Baden-Württemberg",
+      "postalCode": "76532",
+      "addressCountry": "DE"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "name": "Anton Hollich",
+      "telephone": "+49722166172",
+      "email": "mailto:info@salonbaden.de"
+    },
+    "member": [
+      {
+        "@type": "Person",
+        "name": "Andreas Nebl",
+        "url": "https://salonbaden.de/members/andreas-nebl/",
+        "familyName": "Nebl",
+        "givenName": "Andreas",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Anton Hollich",
+        "url": "https://salonbaden.de/members/anton-hollich/",
+        "familyName": "Hollich",
+        "givenName": "Anton",
+        "honorificPrefix": "Prof.",
+        "additionalName": "Toni",
+        "gender": "Male",
+        "telephone": "+49722166172",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Keltenweg 8",
+          "addressLocality": "Baden-Baden",
+          "addressRegion": "Baden-Württemberg",
+          "postalCode": "76532",
+          "addressCountry": "DE"
+        },
+        "knowsLanguage": [
+          {
+            "@type": "Language",
+            "name": "English",
+            "alternateName": "en"
+          },
+          {
+            "@type": "Language",
+            "name": "German",
+            "alternateName": "de"
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Frank Dupree",
+        "url": "https://salonbaden.de/members/frank-dupree/",
+        "familyName": "Dupree",
+        "givenName": "Frank",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Harald Paul",
+        "url": "https://salonbaden.de/members/harald-paul/",
+        "familyName": "Paul",
+        "givenName": "Harald",
+        "additionalName": "Harry",
+        "gender": "Male"
+      },
+      {
+        "@type": "Person",
+        "name": "Julia Richtberg",
+        "url": "https://salonbaden.de/members/julia-richtberg/",
+        "familyName": "Richtberg",
+        "givenName": "Julia",
+        "gender": "Female"
+      },
+      {
+        "@type": "Person",
+        "name": "Willi Huber",
+        "url": "https://salonbaden.de/members/willi-huber/",
+        "familyName": "Huber",
+        "givenName": "Willi",
+        "gender": "Male"
+      }
+    ],
+    "alumni": [
+      {
+        "@type": "Person",
+        "name": "Wolfgang Güttler",
+        "familyName": "Güttler",
+        "givenName": "Wolfgang"
+      },
+      {
+        "@type": "Person",
+        "name": "Alois Müller",
+        "familyName": "Müller",
+        "givenName": "Alois"
+      }
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://salonbaden.de/?q={query}"
+      },
+      "query": "required"
+    }
+  }
+  </script>
+{% endblock %}
+
+{% block announce %}
+  Willkommen auf unserer neuen Seite.
+  Wir r&auml;umen gerade noch ein bisschen auf.
+{% endblock %}

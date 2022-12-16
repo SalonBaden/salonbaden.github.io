@@ -1,0 +1,152 @@
+%YAML 1.2
+---
+site_name: Salonorchester Baden-Baden
+site_description: Das Salonorchester Baden-Baden stellt sich vor.
+site_author: Salonorchester Baden-Baden
+site_url: 'https://salonbaden.de'
+
+repo_name: salonbaden/salonbaden.github.io
+repo_url: https://github.com/salonbaden/salonbaden.github.io
+edit_uri: blob/main/docs/src/markdown
+
+copyright: |
+  Copyright &copy; 2022 <a href="//github.com/salonbaden" target="_blank" rel="noopener">Salonorchester Baden-Baden</a>
+
+docs_dir: docs/src/markdown
+
+theme:
+  name: material
+  custom_dir: docs/theme
+  language: de
+  font: false
+  icon:
+    logo: material/book-open-page-variant
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  palette:
+    # light
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # dark
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    # - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate                                                           # not in combination with "navigation.indexes"
+
+nav:
+  - Home: index.md
+  - Mitglieder:
+      - members/index.md
+      - 'Andreas Nebl': members/andreas-nebl.md
+      - 'Anton Hollich': members/anton-hollich.md
+      - 'Frank Dupree': members/frank-dupree.md
+      - 'Harald Paul': members/harald-paul.md
+      - 'Julia Richtberg': members/julia-richtberg.md
+      - 'Willi Huber': members/willi-huber.md
+  - Repertoire: repertoire.md
+  - Presse: press.md
+  - Bilder: pictures.md
+  - Termine: tourdates.md
+  - Media: media.md
+  - Tags: tags.md
+
+extra:
+  generator: false
+  social:
+    - name: GitHub
+      icon: fontawesome/brands/github
+      link: '//github.com/salonbaden/salonbaden.github.io/'
+    # - name: Instagram
+    #   icon: fontawesome/brands/instagram
+    #   link: '//instagram.com/salonbaden'
+    # - name: Paypal
+    #   icon: fontawesome/brands/paypal
+    #   link: '//paypal.me/salonbaden'
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  # - markdown.extensions.abbr
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  # - markdown.extensions.def_list
+  # - markdown.extensions.footnotes
+  - markdown.extensions.md_in_html
+  # - markdown.extensions.tables
+  - markdown.extensions.toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+      permalink: ''
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.keys:
+  #     separator: '\uff0b'
+  # - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      base_path: 'includes'
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Europe/Berlin
+      enable_creation_date: true
+      exclude:
+        - index.md
+      fallback_to_build_date: true
+  - search:
+      lang: de
+  - social:
+      cards_color:
+        fill: '#333'
+        text: '#fff'
+  - tags:
+      tags_file: tags.md

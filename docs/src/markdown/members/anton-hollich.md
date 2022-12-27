@@ -17,8 +17,6 @@ hide:
 
 # Anton Hollich
 
-Some text.
-
 <!-- more -->
 
 Anton Hollich, unser Motor, Klarinettist, Saxophonist und Arrangeur, ist seit 25 Jahren dabei.

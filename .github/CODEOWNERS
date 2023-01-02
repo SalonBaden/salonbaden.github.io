@@ -2,14 +2,14 @@
 *                                       @SalonBaden/dev
 
 # content quality control
-/docs/src/markdown/                     @HarryViolin
+/docs/src/markdown/                     @SalonBaden/dev
 
 # technical quality control
-/.github/workflows/                     @jrappen
-/docs/overrides/                        @jrappen
-/docs/src/markdown/assets/              @jrappen
-/docs/requirements.txt                  @jrappen
-/includes/                              @jrappen
-/.gitattributes                         @jrappen
-/.gitignore                             @jrappen
-/mkdocs.yml                             @jrappen
+/.github/workflows/                     @SalonBaden/dev
+/docs/overrides/                        @SalonBaden/dev
+/docs/src/markdown/assets/              @SalonBaden/dev
+/docs/requirements.txt                  @SalonBaden/dev
+/includes/                              @SalonBaden/dev
+/.gitattributes                         @SalonBaden/dev
+/.gitignore                             @SalonBaden/dev
+/mkdocs.yml                             @SalonBaden/dev

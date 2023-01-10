@@ -1,0 +1,23 @@
+# macOS
+
+.DS_Store
+
+Thumbs.db
+._*
+
+# Windows
+
+[Dd]esktop.ini
+
+# Python
+
+__pycache__/
+*.py[cod]
+
+# MkDocs Material
+
+.cache/
+
+# Sublime Text / Project workspace files
+
+*.sublime-workspace

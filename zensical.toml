@@ -1,0 +1,184 @@
+[project]
+site_name = "Salonorchester Baden-Baden"
+site_description = "Das Salonorchester Baden-Baden stellt sich vor."
+site_author = "Salonorchester Baden-Baden"
+site_url = "https://salonbaden.de"
+docs_dir = "docs/src/markdown"
+extra_css = ["assets/stylesheets/extra.css"]
+copyright = """
+    Copyright &copy; 2025 Salonorchester Baden-Baden · <a href="/imprint/">Impressum</a>
+"""
+nav = [
+    {"Startseite" = "index.md"},
+    {"Mitglieder" = [
+        "members/index.md",
+        "members/anton-hollich.md",
+         "members/andreas-nebl.md",
+         "members/harald-paul.md",
+         "members/julia-richtberg.md",
+         "members/ewald-adam.md",
+         "members/alexander-somov.md",
+         "members/jakob-krupp.md",
+         "members/demian-martin.md",
+         "members/willi-huber.md"
+    ]},
+    {"Orchester" =  [
+        "tour.md",
+        "repertoire.md",
+        "reviews.md"
+    ]},
+    {"Medien" =  [
+        "media/audio.md",
+        "media/images.md",
+        "media/video.md"
+    ]},
+    {"Verzeichnis" =  [
+        "tags.md"
+    ]},
+    {"Impressum" =  "imprint.md"}
+]
+
+[project.theme]
+custom_dir = "docs/overrides"
+primary = "teal"
+accent = "teal"
+language = "de"
+font = false
+favicon = "assets/images/favicon.png"
+features = [
+    "announce.dismiss",
+    "content.code.annotate",
+    "content.tabs.link",
+    "content.tooltips",
+    "header.autohide",
+    "navigation.expand",
+    "navigation.footer",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.instant.progress",
+    "navigation.path",
+    # navigation.prune not in combination with navigation.expand
+    "navigation.sections",
+    "navigation.tabs",
+    "navigation.tabs.sticky",
+    "navigation.top",
+    "navigation.tracking",
+    "search.highlight",
+    "search.share",
+    "search.suggest",
+    "toc.follow"
+    # toc.integrate not in combination with navigation.indexes
+]
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme:  dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.theme.icon]
+logo = "material/music-clef-treble"
+
+[project.extra]
+generator = false
+
+[[project.extra.social]]
+icon = "simple/applemusic"
+link = "https://music.apple.com/us/artist/salonorchester-baden-baden/1449482405"
+name = "Apple Music"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/deezer"
+link = "https://www.deezer.com/de/artist/57530502"
+name = "Deezer"
+
+# [project.extra.consent]
+# title = "Cookie consent"
+# description = """
+#     We use cookies to recognize your repeated visits and preferences, as well
+#     as to measure the effectiveness of our documentation and whether users
+#     find what they're searching for. With your consent, you're helping us to
+#     make our documentation better.
+# """
+
+[project.extra.tags]
+Startseite = "Startseite"
+Impressum = "Impressum"
+Mitglied = "Mitglied"
+Termine = "Termine"
+Repertoire = "Repertoire"
+Medien = "Medien"
+Pressestimmen = "Pressestimmen"
+
+[project.markdown_extensions.abbr]
+
+[project.markdown_extensions.admonition]
+
+[project.markdown_extensions.attr_list]
+
+[project.markdown_extensions.md_in_html]
+
+[project.markdown_extensions.meta]
+
+[project.markdown_extensions.toc]
+permalink = "⚓︎"
+permalink_title = "Anker-Link als Referenz zu diesem Abschnitt"
+title = "Inhaltsverzeichnis"
+
+[project.markdown_extensions.toc.slugify]
+function = "pymdownx.slugs.slugify"
+kwds = {case = "lower"}
+object = "pymdownx.slugs.slugify"
+
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+options.custom_icons = [
+    "docs/overrides/.icons"
+]
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+
+[project.markdown_extensions.pymdownx.inlinehilite]
+
+[project.markdown_extensions.pymdownx.snippets]
+check_paths = true
+base_path = [
+    "includes"
+]
+auto_append = [
+    "references.md"
+]
+
+[project.markdown_extensions.pymdownx.superfences]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+[project.markdown_extensions.zensical.extensions.preview]
+configurations = [
+    { targets.include = [
+        "members/*"
+    ]}
+]

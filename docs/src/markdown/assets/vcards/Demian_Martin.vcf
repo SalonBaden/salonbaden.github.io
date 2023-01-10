@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Martin;Demian;;;
+FN:Demian Martin
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Klavier
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/demian-martin.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+EMAIL;TYPE=home,internet:demian-martin@t-online.de?subject=Salonorchester%20Baden-Baden
+URL;TYPE=work,pref:https://salonbaden.de/members/demian-martin/
+SOURCE:https://salonbaden.de/assets/vcards/Demian_Martin.vcf
+TZ:+0100
+REV:2025-11-05T11:00:00+01:00
+END:VCARD

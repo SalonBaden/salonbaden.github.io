@@ -1,0 +1,17 @@
+*                   text        auto
+
+# Folders
+
+./.github/                      export-ignore
+
+# Files
+
+./.gitattributes                export-ignore
+./.gitignore                    export-ignore
+./README.md                     export-ignore
+
+# Extensions
+
+*.mp3               binary
+*.png               binary
+*.webp              binary

@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Somov;Alexander;;;
+FN:Alexander Somov
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Violoncello
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/alexander-somov.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+URL;TYPE=work,pref:https://salonbaden.de/members/alexander-somov/
+URL;TYPE=home:https://www.alexandersomovcello.com/index2.php
+X-SOCIALPROFILE;TYPE=Facebook:https://www.facebook.com/alexander.somov.56/
+SOURCE:https://salonbaden.de/assets/vcards/Alexander_Somov.vcf
+TZ:+0100
+REV:2023-01-10T23:30:00+02:00
+END:VCARD

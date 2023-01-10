@@ -1,0 +1,15 @@
+# global owners
+*                                       @SalonBaden/dev
+
+# content quality control
+/docs/src/markdown/                     @SalonBaden/dev
+
+# technical quality control
+/.github/workflows/                     @SalonBaden/dev
+/docs/overrides/                        @SalonBaden/dev
+/docs/src/markdown/assets/              @SalonBaden/dev
+/docs/requirements.txt                  @SalonBaden/dev
+/includes/                              @SalonBaden/dev
+/.gitattributes                         @SalonBaden/dev
+/.gitignore                             @SalonBaden/dev
+/mkdocs.yml                             @SalonBaden/dev

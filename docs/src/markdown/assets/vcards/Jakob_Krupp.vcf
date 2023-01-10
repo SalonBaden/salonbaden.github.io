@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Krupp;Jakob;;;
+FN:Jakob Krupp
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Kontrabass
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/jakob-krupp.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+EMAIL;TYPE=home,internet:jakobkrupp@web.de?subject=Salonorchester%20Baden-Baden
+URL;TYPE=work,pref:https://salonbaden.de/members/jakob-krupp/
+URL;TYPE=home:https://www.jakobkrupp.de/
+X-SOCIALPROFILE;TYPE=Facebook:https://www.facebook.com/reinhard.rakete/
+X-SOCIALPROFILE;TYPE=Instagram:https://www.instagram.com/jakobkrupp/
+SOURCE:https://salonbaden.de/assets/vcards/Jakob_Krupp.vcf
+TZ:+0100
+REV:2023-01-10T23:30:00+02:00
+END:VCARD

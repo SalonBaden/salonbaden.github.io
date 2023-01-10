@@ -1,0 +1,35 @@
+html a[title="Apple Music"].md-social__link svg {
+  color: #fa243c;
+}
+
+html a[title="Deezer"].md-social__link svg {
+  color: #feaa2d;
+}
+
+@keyframes hand-wave {
+  0% { transform: rotate( 0.0deg) }
+  /* The following five values can be played with to make the waving more or less extreme */
+  10% { transform: rotate(14.0deg) }
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  /* Reset for the last half to pause */
+  60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+
+.animated-hand-wave {
+  animation-name: hand-wave;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 30% 70%;
+}
+
+.gslide-desc p a {
+  color: var(--md-typeset-a-color);
+}
+
+.gslide-desc p a:hover {
+  text-decoration: underline;
+}

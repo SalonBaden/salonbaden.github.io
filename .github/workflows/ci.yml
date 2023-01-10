@@ -1,0 +1,65 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - 'main'
+    paths:
+      - '.github/workflows/ci.yml'
+      - 'docs/**'
+      - 'includes/**'
+      - 'mkdocs.yml'
+  workflow_dispatch:
+  # inputs:
+  #   logLevel:
+  #     description: 'Log level'
+  #     required: true
+  #     default: 'warning'
+
+concurrency:
+  group: 'test'
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Test (Mkdocs, ${{ matrix.os }}, py${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.optional }}
+    timeout-minutes: 15 # default is 6 hours!
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python-version: 3.x
+            optional: false
+    steps:
+
+      - name: Git config
+        run: |
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global init.defaultBranch main
+
+      # https://github.com/actions/checkout
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      # https://github.com/actions/setup-python
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install Python dependencies
+        run: |
+          python3 -m pip install --upgrade pip setuptools build --use-pep517
+          python3 -m pip install -r ./docs/src/requirements.txt --use-pep517
+
+      - name: Build docs with mkdocs
+        run: |
+          mkdocs build --clean --strict

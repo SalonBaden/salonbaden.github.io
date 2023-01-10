@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Paul;Harald;;;
+FN:Harald Paul
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Violine
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/harald-paul.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+ADR;TYPE=home,pref:;;Schlarthweg 1;Remshalden;Baden-Württemberg;73630;Deutschland
+LABEL;TYPE=home,postal:Salonorchester Baden-Baden\nc/o Harald Paul\nSchlarthweg 1\n73630 Remshalden\nGermany
+URL;TYPE=work,pref:https://salonbaden.de/members/harald-paul/
+SOURCE:https://salonbaden.de/assets/vcards/Harald_Paul.vcf
+TZ:+0100
+REV:2023-01-10T23:30:00+02:00
+END:VCARD

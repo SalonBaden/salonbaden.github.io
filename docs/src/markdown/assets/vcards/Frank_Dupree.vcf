@@ -1,0 +1,21 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Dupree;Frank;;;
+FN:Frank Dupree
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Klavier & Xylophon
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/frank-dupree.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+EMAIL;TYPE=home,internet:mail@frank-dupree.de?subject=Salonorchester%20Baden-Baden
+URL;TYPE=work,pref:https://salonbaden.de/members/frank-dupree/
+URL;TYPE=home:https://www.frank-dupree.de/
+X-SOCIALPROFILE;TYPE=Twitter:https://www.twitter.com/frank_dupree/
+X-SOCIALPROFILE;TYPE=Facebook:https://www.facebook.com/frankdupree91/
+X-SOCIALPROFILE;TYPE=Instagram:https://www.instagram.com/frankdupree_official/
+SOURCE:https://salonbaden.de/assets/vcards/Frank_Dupree.vcf
+TZ:+0100
+REV:2023-01-14T00:30:00+02:00
+END:VCARD

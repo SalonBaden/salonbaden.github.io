@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hollich;Anton;;Prof.;
+FN:Prof. Anton Hollich
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Klarinette,Saxophon
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/anton-hollich.webp
+TEL;TYPE=home,voice,pref:+49722166172
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+ADR;TYPE=home,pref:;;Keltenweg 8;Baden-Baden;Baden-Württemberg;76532;Deutschland
+LABEL;TYPE=home,postal:Salonorchester Baden-Baden\nc/o Prof. Anton Hollich\nKeltenweg 8\n76532 Baden-Baden\nGermany
+LANG:de-DE
+URL;TYPE=work,pref:https://salonbaden.de/members/anton-hollich/
+SOURCE:https://salonbaden.de/assets/vcards/Anton_Hollich.vcf
+TZ:+0100
+REV:2023-01-10T23:30:00+02:00
+END:VCARD

@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Huber;Willi;;;
+FN:Willi Huber
+PROFILE:VCARD
+NICKNAME: Willi März
+ORG:Salonorchester Baden-Baden
+ROLE:Moderation
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/willi-huber.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+EMAIL;TYPE=home,internet:info@willi-huber.de?subject=Salonorchester%20Baden-Baden
+URL;TYPE=work,pref:https://salonbaden.de/members/willi-huber/
+URL;TYPE=home:https://www.willi-maerz.com/
+SOURCE:https://salonbaden.de/assets/vcards/Willi_Huber.vcf
+TZ:+0100
+REV:2023-01-11T10:00:00+02:00
+END:VCARD

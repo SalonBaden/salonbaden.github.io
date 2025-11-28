@@ -1,0 +1,11 @@
+<OpenSearchDescription
+    xmlns="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+>
+  <ShortName>SalonBaden</ShortName>
+  <Description>Search SalonBaden</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="48" height="48" type="image/png">https://salonbaden.de/assets/images/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://salonbaden.de/?q={searchTerms}&amp;ref=opensearch"/>
+  <moz:SearchForm>https://salonbaden.de/</moz:SearchForm>
+</OpenSearchDescription>

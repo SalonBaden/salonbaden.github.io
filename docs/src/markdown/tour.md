@@ -22,7 +22,7 @@ hide:
 
         15:00 Uhr
 
-        Feier "Weltkulturerbe Baden-Baden" in der [Trinkhalle Baden-Baden](https://www.baden-baden.com/veranstaltung/historischer-tanztee-im-wandelgang-c26897b013){ target="_blank" rel="noopener" }
+        [Historischer Tanztee im Wandelgang](https://www.baden-baden.com/veranstaltung/historischer-tanztee-im-wandelgang-c26897b013){ target="_blank" rel="noopener" } in der Trinkhalle Baden-Baden
 
     === "Adresse"
 

@@ -14,7 +14,7 @@ hide:
 
 ## Zukünftige Konzerttermine
 
-### 2026-06-07
+### 07.06.2026
 
 !!! quote ""
 
@@ -32,7 +32,7 @@ hide:
         76530 Baden-Baden
         ```
 
-### 2026-11-14
+### 14.11.2026
 
 !!! quote ""
 
@@ -51,7 +51,7 @@ hide:
         76530 Baden-Baden
         ```
 
-### 2027-01-03
+### 03.01.2027
 
 !!! quote ""
 
@@ -59,13 +59,17 @@ hide:
 
         18:30 Uhr
 
+        Schlossgartenhalle Ettlingen
+
     === "Adresse"
 
         ```text
         Schlossgartenhalle Ettlingen
+        Klostergasse 8
+        76275 Ettlingen
         ```
 
-### 2027-01-09
+### 09.01.2027
 
 !!! quote ""
 
@@ -94,13 +98,15 @@ hide:
         - [:material-waze: Google Waze](https://www.waze.com/ul?q=BadnerHalle%20Rastatt&ll=48.8555793,8.2071982&navigate=yes){ target="_blank" rel="noopener" }
         - [:simple-here: HERE Maps](https://share.here.com/r/mylocation/48.8555793,8.2071982?m=d){ target="_blank" rel="noopener" }
 
-### 2027-01-10
+### 10.01.2027
 
 !!! quote ""
 
     === "Info"
 
         18 Uhr
+
+        Günter-Bimmerle-Halle, Oppenau
 
     === "Adresse"
 
@@ -125,7 +131,7 @@ hide:
 
 ## Vergangene Konzerttermine { data-search-exclude }
 
-### 2026-01-17 { data-search-exclude }
+### 17.01.2026 { data-search-exclude }
 
 !!! quote ""
 
@@ -133,13 +139,17 @@ hide:
 
         18:30 Uhr
 
+        Schlossgartenhalle Ettlingen
+
     === "Adresse"
 
         ```text
         Schlossgartenhalle Ettlingen
+        Klostergasse 8
+        76275 Ettlingen
         ```
 
-### 2026-01-11 { data-search-exclude }
+### 11.01.2026 { data-search-exclude }
 
 !!! quote ""
 
@@ -155,7 +165,7 @@ hide:
         77728 Oppenau
         ```
 
-### 2026-01-06 { data-search-exclude }
+### 06.01.2026 { data-search-exclude }
 
 !!! quote ""
 
@@ -180,7 +190,7 @@ hide:
         - [:material-waze: Google Waze](https://www.waze.com/ul?q=Kulturforum%20Illenau%20Achern&ll=48.6249123,8.0825844&navigate=yes){ target="_blank" rel="noopener" }
         - [:simple-here: HERE Maps](https://share.here.com/r/mylocation/48.6249123,8.0825844?m=d){ target="_blank" rel="noopener" }
 
-### 2026-01-03 { data-search-exclude }
+### 03.01.2026 { data-search-exclude }
 
 !!! quote ""
 
@@ -198,7 +208,7 @@ hide:
         76437 Rastatt
         ```
 
-### 2026-01-01 { data-search-exclude }
+### 01.01.2026 { data-search-exclude }
 
 !!! quote ""
 
@@ -216,7 +226,7 @@ hide:
         77855 Achern
         ```
 
-### 2025-01-12 { data-search-exclude }
+### 12.01.2025 { data-search-exclude }
 
 !!! quote ""
 
@@ -232,7 +242,7 @@ hide:
         77728 Oppenau
         ```
 
-### 2025-01-11 { data-search-exclude }
+### 11.01.2025 { data-search-exclude }
 
 !!! quote ""
 
@@ -246,7 +256,7 @@ hide:
         Schlossgartenhalle Ettlingen
         ```
 
-### 2025-01-06 { data-search-exclude }
+### 06.01.2025 { data-search-exclude }
 
 !!! quote ""
 
@@ -264,7 +274,7 @@ hide:
         77855 Achern
         ```
 
-### 2025-01-04 { data-search-exclude }
+### 04.01.2025 { data-search-exclude }
 
 !!! quote ""
 
@@ -282,7 +292,7 @@ hide:
         76437 Rastatt
         ```
 
-### 2025-01-01 { data-search-exclude }
+### 01.01.2025 { data-search-exclude }
 
 !!! quote ""
 
@@ -300,7 +310,7 @@ hide:
         77855 Achern
         ```
 
-### 2024-01-14 { data-search-exclude }
+### 14.01.2024 { data-search-exclude }
 
 !!! quote ""
 
@@ -318,7 +328,7 @@ hide:
         76437 Rastatt
         ```
 
-### 2024-01-13 { data-search-exclude }
+### 13.01.2024 { data-search-exclude }
 
 !!! quote ""
 
@@ -332,7 +342,7 @@ hide:
         Schlossgartenhalle Ettlingen
         ```
 
-### 2024-01-07 { data-search-exclude }
+### 07.01.2024 { data-search-exclude }
 
 !!! quote ""
 
@@ -344,7 +354,7 @@ hide:
         77728 Oppenau
         ```
 
-### 2024-01-06 { data-search-exclude }
+### 06.01.2024 { data-search-exclude }
 
 !!! quote ""
 
@@ -360,7 +370,7 @@ hide:
         77855 Achern
         ```
 
-### 2024-01-01 { data-search-exclude }
+### 01.01.2024 { data-search-exclude }
 
 !!! quote ""
 
@@ -376,7 +386,7 @@ hide:
         77855 Achern
         ```
 
-### 2023-05-14 { data-search-exclude }
+### 14.05.2023 { data-search-exclude }
 
 !!! quote ""
 
@@ -392,7 +402,7 @@ hide:
         77855 Achern
         ```
 
-### 2023-04-09 { data-search-exclude }
+### 09.04.2023 { data-search-exclude }
 
 !!! quote ""
 
@@ -400,7 +410,7 @@ hide:
 
         Das Salonorchester Baden-Baden in der Radiosendung "Musik aus dem Lande" des Radiosenders SWR4, am Ostersonntag, den 09. April 2023, zwischen 18-20 Uhr.
 
-### 2023-01-08 { data-search-exclude }
+### 08.01.2023 { data-search-exclude }
 
 !!! quote ""
 
@@ -412,7 +422,7 @@ hide:
         77728 Oppenau
         ```
 
-### 2023-01-07 { data-search-exclude }
+### 07.01.2023 { data-search-exclude }
 
 !!! quote ""
 
@@ -428,7 +438,7 @@ hide:
         76437 Rastatt
         ```
 
-### 2023-01-06 { data-search-exclude }
+### 06.01.2023 { data-search-exclude }
 
 !!! quote ""
 
@@ -444,7 +454,7 @@ hide:
         77855 Achern
         ```
 
-### 2023-01-01 { data-search-exclude }
+### 01.01.2023 { data-search-exclude }
 
 !!! quote ""
 
@@ -460,7 +470,7 @@ hide:
         77855 Achern
         ```
 
-### 2022-06-05 { data-search-exclude }
+### 05.06.2022 { data-search-exclude }
 
 !!! quote ""
 
@@ -476,7 +486,7 @@ hide:
         76530 Baden-Baden
         ```
 
-### 2022-01-09 { data-search-exclude }
+### 09.01.2022 { data-search-exclude }
 
 !!! quote ""
 
@@ -488,7 +498,7 @@ hide:
         77728 Oppenau
         ```
 
-### 2022-01-02 { data-search-exclude }
+### 02.01.2022 { data-search-exclude }
 
 !!! quote ""
 
@@ -504,7 +514,7 @@ hide:
         77855 Achern
         ```
 
-### 2022-01-01 { data-search-exclude }
+### 01.01.2022 { data-search-exclude }
 
 !!! quote ""
 

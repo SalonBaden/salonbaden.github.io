@@ -22,7 +22,7 @@ hide:
 
         15:00 Uhr
 
-        Feier "Weltkulturerbe Baden-Baden" in der Trinkhalle Baden-Baden.
+        Feier "Weltkulturerbe Baden-Baden" in der Trinkhalle Baden-Baden(https://www.baden-baden.com/veranstaltung/historischer-tanztee-im-wandelgang-c26897b013){ target="_blank" rel="noopener" }
 
     === "Adresse"
 
@@ -40,7 +40,7 @@ hide:
 
         20:00 Uhr
 
-        Weinbrennersaal, Kurhaus Baden-Baden.
+        Weinbrennersaal, Kurhaus Baden-Baden
 
     === "Adresse"
 

@@ -32,6 +32,25 @@ hide:
         76530 Baden-Baden
         ```
 
+### 10.10.2026
+
+!!! quote ""
+
+    === "Info"
+
+        19:00 Uhr
+
+        Frankenthal, Donauschwabenhaus - **Veranstaltung ausverkauft**
+
+    === "Adresse"
+
+        ```text
+        Donauschwabenhaus
+        Landsmannschaft der Banater Schwaben
+        Am Kanal 12b
+        67227 Frankenthal
+        ```
+
 ### 14.11.2026
 
 !!! quote ""

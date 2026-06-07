@@ -14,24 +14,6 @@ hide:
 
 ## Zukünftige Konzerttermine
 
-### 07.06.2026
-
-!!! quote ""
-
-    === "Info"
-
-        15:00 Uhr
-
-        [Historischer Tanztee im Wandelgang](https://www.baden-baden.com/veranstaltung/historischer-tanztee-im-wandelgang-c26897b013){ target="_blank" rel="noopener" } in der Trinkhalle Baden-Baden
-
-    === "Adresse"
-
-        ```text
-        Trinkhalle Baden-Baden
-        Kaiserallee 3
-        76530 Baden-Baden
-        ```
-
 ### 10.10.2026
 
 !!! quote ""
@@ -149,6 +131,24 @@ hide:
 <!-- more -->
 
 ## Vergangene Konzerttermine { data-search-exclude }
+
+### 07.06.2026 { data-search-exclude }
+
+!!! quote ""
+
+    === "Info"
+
+        15:00 Uhr
+
+        [Historischer Tanztee im Wandelgang](https://www.baden-baden.com/veranstaltung/historischer-tanztee-im-wandelgang-c26897b013){ target="_blank" rel="noopener" } in der Trinkhalle Baden-Baden
+
+    === "Adresse"
+
+        ```text
+        Trinkhalle Baden-Baden
+        Kaiserallee 3
+        76530 Baden-Baden
+        ```
 
 ### 17.01.2026 { data-search-exclude }
 

@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Adam;Ewald;;;
+FN:Ewald Adam
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Viola
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/ewald-adam.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+URL;TYPE=work,pref:https://salonbaden.de/members/ewald-adam/
+SOURCE:https://salonbaden.de/assets/vcards/Ewald_Adam.vcf
+TZ:+0100
+REV:2023-01-10T23:30:00+02:00
+END:VCARD

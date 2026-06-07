@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Richtberg;Julia;;;
+FN:Julia Richtberg
+PROFILE:VCARD
+ORG:Salonorchester Baden-Baden
+ROLE:Violine
+ORG-DIRECTORY:https://salonbaden.de/members/
+CLASS:public
+PHOTO;TYPE=webp:https://salonbaden.de/assets/images/members/julia-richtberg.webp
+EMAIL;TYPE=work,internet,pref:info@salonbaden.de
+URL;TYPE=work,pref:https://salonbaden.de/members/julia-richtberg/
+SOURCE:https://salonbaden.de/assets/vcards/Julia_Richtberg.vcf
+TZ:+0100
+REV:2023-01-10T23:30:00+02:00
+END:VCARD
